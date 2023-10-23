@@ -2,20 +2,6 @@
 // рекурсии. Даны два неотрицательных числа m и n.
 // m = 3, n = 2 -> A(m,n) = 29
 
-// функция ack(n, m)
-//    если n = 0
-//      вернуть m + 1
-//    иначе, если m = 0
-//      вернуть ack (n - 1, 1)
-//    еще
-//      вернуть ack(n - 1, ack (n, m - 1))
-
-// int SumOfDigits(int num)
-// {
-//     if (num == 0) return 0;
-//     return num % 10 + SumOfDigits(num / 10);
-// }
-
 Console.WriteLine("Введите натуральное число N: ");
 int numberN = Convert.ToInt32(Console.ReadLine());
 
